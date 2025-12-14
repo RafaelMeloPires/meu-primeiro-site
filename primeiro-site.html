@@ -3,7 +3,8 @@
 <html lang="pt-br">
     <head>
         <title>Quiz para programadores</title>
-        <meta name="description" content="Um quiz iterativo para programadores iniciantes">
+        <meta name="description" content="Um quiz interativo para programadores iniciantes">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body> 
         <header>
@@ -116,7 +117,7 @@
                     <thead>
                         <tr>
                             <th>Pontuação</th>
-                            <th>Comentário</th>
+                            <th>Avaliação</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -172,7 +173,7 @@
                         <input type="text" id="name" name="name"><br>
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email"><br>
-                        <label for="comentarios">Comentários:</label>
+                        <label for="comentarios">Comentários:</label><br>
                         <textarea name="comentarios" id="comentarios" rows="4" cols="50" 
                         placeholder="Digite seus comentários aqui..."></textarea><br>
                         <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
@@ -181,8 +182,8 @@
             </section>
         </main>
         <footer>
-            <p>&copy Quiz de programadores. Todos os direitos reservados.</p>
-            <p>Para conhecer mais sobre mim <a href="https://github.com/RafaelMeloPires" target="_blank">clique aqui</a></p>
+            <p class="paragrafo-footer">&copy Quiz de programadores. Todos os direitos reservados.</p>
+            <p class="paragrafo-footer">Para conhecer mais sobre mim <a href="https://github.com/RafaelMeloPires" target="_blank">clique aqui</a></p>
         </footer>
     </body>
 
